@@ -19,7 +19,6 @@ class MyApp extends StatelessWidget {
       body: SafeArea(
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          //crossAxisAlignment: CrossAxisAlignment.stretch,
           children: <Widget>[
             Container(
               width: 100,
@@ -36,11 +35,6 @@ class MyApp extends StatelessWidget {
                 color: Colors.green[700],
               ),
             ),
-            // Container(
-            //   width: 100,
-            //   height: 100,
-            //   color: Colors.yellowAccent,
-            // ),
             Container(
               width: 100,
               color: Colors.blue,
